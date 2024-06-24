@@ -1,0 +1,7 @@
+#N canvas 390 -30 1920 1016 12;
+#X obj 157 425 dac~;
+#X obj 172 269 osc~;
+#X obj 172 241 r frequency;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 2 0 1 0;

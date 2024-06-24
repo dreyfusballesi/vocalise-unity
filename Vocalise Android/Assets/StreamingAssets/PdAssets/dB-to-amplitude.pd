@@ -1,0 +1,8 @@
+#N canvas 951 0 956 931 12;
+#X obj 93 107 inlet;
+#X obj 93 131 expr pow( 10 \, $f1/10 );
+#X obj 93 155 outlet;
+#X text 365 152 [expr] help - http://yadegari.org/expr/expr.html;
+#X text 367 98 Decibel definition - https://www.rapidtables.com/electric/decibel.html;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
