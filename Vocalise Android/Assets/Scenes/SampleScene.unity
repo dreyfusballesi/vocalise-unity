@@ -331,9 +331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7df432beac52174aa6189ffe6bd75c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patchName: 
-  patchDir: 
-  patch: {fileID: 0}
+  patchName: vocalise-receiver
+  patchDir: /PdAssets/
+  patch: {fileID: 102900000, guid: 4fba744d03cd1614fa34b65666572c8b, type: 3}
   pipePrintToConsole: 0
   pureDataEvents:
     Bang:

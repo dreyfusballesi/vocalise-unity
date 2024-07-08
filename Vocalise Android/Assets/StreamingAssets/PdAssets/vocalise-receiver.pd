@@ -1,4 +1,4 @@
-#N canvas 157 -34 1920 1016 12;
+#N canvas 1113 -20 1920 1016 12;
 #X text 646 94 More optional inputs relating to timbre;
 #X obj 77 231 mtof;
 #X obj 77 356 source~;
