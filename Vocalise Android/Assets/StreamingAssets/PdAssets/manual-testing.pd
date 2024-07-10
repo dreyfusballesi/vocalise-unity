@@ -1,4 +1,4 @@
-#N canvas 154 -26 1920 1016 12;
+#N canvas 951 0 956 1003 12;
 #X floatatom 99 143 5 0 0 0 - - - 0;
 #X floatatom 99 186 5 0 0 0 - - - 0;
 #X floatatom 99 235 5 0 0 0 - - - 0;
@@ -10,8 +10,11 @@
 #X obj 382 161 vocalise-receiver;
 #X text 97 104 Manual testing for [vocalise-receiver];
 #X obj 178 236 s loudness;
+#X obj 124 375 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 124 399 s toggle;
 #X connect 0 0 4 0;
 #X connect 1 0 5 0;
 #X connect 2 0 10 0;
 #X connect 3 0 7 0;
 #X connect 7 0 6 0;
+#X connect 11 0 12 0;
